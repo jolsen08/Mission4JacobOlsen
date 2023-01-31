@@ -1,0 +1,72 @@
+﻿<!--Jacob Olsen, Mission 4-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--Webpage title-->
+    <title>Jacob Olsen 413</title>
+
+    <!--Adding the bootstrap and default CSS (to override certain details)-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <!--Here is the favicon icon for the tab-->
+    <link rel="shortcut icon" type="image/png" href="img/catanlogo.webp">
+</head>
+<body>
+    <!--Header with preferred name-->
+    <h1>
+        Jacob Olsen
+    </h1><br />
+
+    <!--Picture of myself hosting Catan night (something I enjoy)-->
+    <img id="catannight" src="img/catan_night.jpg" /><br />
+
+    <!--What I hope to get out of the class-->
+    <h2>What I hope to get out of IS413</h2>
+    <p>
+        The thing hope to get from this class the most is a better, solid understanding of Object-oriented programming.
+        Although we learned some OOP in our Python class last semester, I still left the class a little confused
+        on certain concepts and how things fit together. My hope is that I can get really good at that aspect
+        of programming as a result of IS413.
+    </p> <br />
+
+    <!--Top 3 Jobs-->
+    <h2>Top 3 Jobs after Graduation</h2>
+    <ol>
+        <li>Data Analyst</li>
+        <li>Backend/Database Developer</li>
+        <li>Cyber Security Analyst</li>
+    </ol><br />
+
+    <!--Grade Calculator with ids that will be referenced in the js page and functions.-->
+    <h2>Grade Calculator</h2>
+    <h5>(please enter the % of points you received for each category)</h5><br />
+
+    <form>
+        <label>Assignments</label>
+        <input id="assignments" /> <br />
+        <label>Quizzes</label>
+        <input id="quizzes" /><br />
+        <label>Group Projects</label>
+        <input id="groupprojects" /><br />
+        <label>INTEX</label>
+        <input id="intex" /><br />
+        <label>Midterm Exam</label>
+        <input id="midterm" /><br />
+        <label>Final Exam</label>
+        <input id="final" /><br /><br />
+        <input id="buttonsend" type="button" value="Submit" />
+        <input id="restart" type="button" value="Restart" />
+    </form><br />
+
+    <h3>Overall Grade</h3>
+    <div id="result">?</div>
+
+    <!--Here is the bootstrap, jquery, and js page linking the html to the right resources.-->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/grades.js"></script>
+
+
+</body>
+</html>

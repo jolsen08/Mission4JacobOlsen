@@ -1,0 +1,27 @@
+﻿/*Here are the changes I made from the original bootstrap*/
+label {
+    font-size: 20px;
+    color: darkslateblue;
+    width: 150px;
+    display: inline-block;
+}
+
+img {
+    width: 800px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+    body > * {
+        margin: auto;
+        width: 500px;
+        display: block;
+    }
