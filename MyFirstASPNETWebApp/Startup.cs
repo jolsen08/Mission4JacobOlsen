@@ -30,7 +30,7 @@ namespace MyFirstASPNETWebApp
             app.UseStaticFiles();
 
             app.UseRouting();
-
+/*Establishing the endpoints*/
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

@@ -9,11 +9,13 @@ namespace Mission4.Controllers
 {
     public class BlahController : Controller
     {
+/*Creating the Index action (which will automatically return to the index page)*/
         public IActionResult Index()
         {
             return View();
         }
-
+/*Here are the HttpGet and HttpPost actions in the controller. The get will return the regular grades
+ page and the post will go to the GradeModel class first.*/
         [HttpGet]
         public IActionResult Grades ()
         {
